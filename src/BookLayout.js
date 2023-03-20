@@ -11,7 +11,7 @@ function BookLayout() {
       <br />
       <Link to="/books/new">New book</Link>
 
-      <Outlet context={{ hello: "World" }} />
+      <Outlet/>
     </div>
   );
 }
